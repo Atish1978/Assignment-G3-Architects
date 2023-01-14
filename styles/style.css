@@ -1,0 +1,159 @@
+/* ----------------------
+    Font Family: Work Sans
+------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ----------------
+    Page Margin 
+------------------*/
+* {
+    margin: 0;
+}
+
+/* -------------------
+    Main Header Section
+---------------------- */
+
+.main-header {
+    background-color: #FF900E1A;
+    padding-top: 63px;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-name {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.menu-items {
+    display: flex;
+    gap: 30px;
+}
+
+/* -------------------
+    Top body text Section
+---------------------- */
+
+.top-body-container {
+    background-color: #FF900E1A;
+    padding-top: 102px;
+
+}
+
+.top-body-text {
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-bottom: 33px;
+    text-align: center;
+
+
+}
+
+.top-body-headline {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.top-body-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.button-style {
+
+    background-color: #FF900E;
+    Width: 180px;
+    Height: 64px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* -------------------
+    Top body image Section
+---------------------- */
+
+.top-body-banner {
+
+    padding-top: 50px;
+
+    text-align: center;
+
+}
+
+img,
+.image-banner {
+    height: 700px;
+    width: 75%;
+    padding-bottom: 32px;
+
+}
+
+/* -------------------
+   Features Section
+---------------------- */
+
+.features-container {
+    padding-top: 98px;
+}
+.features-items{
+    
+    display:flex;
+    gap:73px;
+}
+.features-images{
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 50px;
+}
+img,
+.imaage-features {
+    width: 342px;
+    height: 342px;
+    border-radius: 10px;
+
+}
+.features-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.features-content-title{
+    font-weight: 500;
+font-size: 45px;
+}
+.quick-list{
+    color: #727272;
+}
+.features{
+    color: #FF900E;
+}
+.features-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-top:24px;
+margin-bottom:32px;
+}
