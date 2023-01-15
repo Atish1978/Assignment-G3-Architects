@@ -1,6 +1,7 @@
 /* ----------------------
     Font Family: Work Sans
 ------------------------ */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
 
 body {
@@ -49,7 +50,6 @@ body {
 .top-body-container {
     background-color: #FF900E1A;
     padding-top: 102px;
-
 }
 
 .top-body-text {
@@ -86,10 +86,9 @@ body {
     margin: auto;
 }
 
-
-/* -------------------
+/* -----------------------
     Top body image Section
----------------------- */
+------------------------- */
 
 .top-body-banner {
     padding-top: 50px;
@@ -125,12 +124,10 @@ img.image-banner {
     margin-left: 300px;
 }
 
-
 img.imaage-features {
     width: 300px;
     height: 300px;
     border-radius: 10px;
-
 }
 
 .features-content {
@@ -160,7 +157,7 @@ img.imaage-features {
     margin-bottom: 32px;
 }
 
-/* -------------------
+/* -----------------------
    Features details Section
 ---------------------- */
 .features-details-container {
@@ -179,7 +176,6 @@ img.imaage-features {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
     margin-bottom: 24px;
-
 }
 
 .features-title-style {
@@ -197,14 +193,12 @@ img.imaage-features {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 10px;
-
 }
 
 .feature-item-1 {
     padding: 30px;
     box-shadow: 1px 0px grey, -.25em 0 .2em darkgrey;
     margin-bottom: 30px;
-
 }
 
 img.feature-banner-image {
@@ -212,8 +206,7 @@ img.feature-banner-image {
     right: 30px;
     width: 708px;
     height: 982px;
-   
-  }
+}
 
 .feature-banner-sticker {
     position: relative;
@@ -228,14 +221,11 @@ img.feature-banner-image {
     border-radius: 5px;
     padding-top: 55px;
     padding-bottom: 5opx;
-
-
 }
 
 .feature-banner-sticker-title {
     font-weight: 700;
     font-size: 65px;
-
 }
 
 .feature-banner-sticker-experience {
@@ -271,10 +261,9 @@ img.feature-banner-image {
 }
 
 .facts-items {
-    display:flex;
-    gap:50px;
+    display: flex;
+    gap: 50px;
     margin-top: 108px;
-
 }
 
 .fact-details {
@@ -311,6 +300,50 @@ img.facts-icon {
     color: #727272;
 }
 
+/* -------------------------
+   Location Information Section
+-------------------------- */
+
+.location-container {
+    margin-top: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 50px;
+
+}
+
+.locations {
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.location-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+
+.all-branches {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+.state {
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+
+    text-align: center;
+    border-radius: 8px;
+}
+
+.state-title {
+
+    padding-top: 90px;
+}
+
 /* -------------------
    Our Sponsors Section
 ---------------------- */
@@ -327,7 +360,7 @@ img.facts-icon {
 }
 
 .sponsors-title {
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 45px;
     margin-bottom: 24px;
 }
@@ -338,11 +371,295 @@ img.facts-icon {
     color: #727272;
 }
 
-.logo-image{
-margin-top:50px;
+.logo-image {
+    margin-top: 50px;
 }
 
-.sponsors-company-information{
-    display:flex;
+.sponsors-company-information {
+    display: flex;
     justify-content: space-around;
+}
+
+/* -------------------
+   Footer Section
+---------------------- */
+
+.footer-section {
+    text-align: center;
+    border: none;
+    background-color: #FF900E1A;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 130px;
+    margin-bottom: 216px;
+    height: 100px;
+    padding-top: 70px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* -------------------
+   Responsive Section
+---------------------- */
+
+@media screen and (max-width:576px) {
+
+    /* --------------------------
+   Responside for Header Section
+------------------------------- */
+    .header-items {
+        flex-direction: column;
+    }
+
+    .header-title {
+        padding-bottom: 30px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+    }
+
+    /* ---------------------------------
+   Responside for Top Body Section
+----------------------------------- */
+    .top-body-container {
+        padding-top: 50px;
+    }
+
+    .top-body-text {
+        padding-bottom: 33px;
+        text-align: center;
+    }
+
+    .top-body-text {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 33px;
+        text-align: center;
+    }
+
+    .top-body-headline {
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .top-body-banner {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    img.image-banner {
+        height: 150px;
+        width: 50%;
+        padding-bottom: 16px;
+    }
+
+    /* --------------------------------
+   Responside for Quick Features Section
+-------------------------------- */
+
+    .features-container {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .features-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .features-images {
+        display: flex;
+        flex-direction: column;
+        column-gap: 30px;
+        row-gap: 5px;
+        margin-left: 10px;
+    }
+
+    img.imaage-features {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .features-items {
+        display: flex;
+        flex-direction: column;
+        gap: 73px;
+    }
+
+    .features-content {
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        ;
+    }
+
+    /* -------------------------------------
+   Responside for Features details Section
+-------------------------------------- */
+    .features-details-container {
+        flex-direction: column;
+        gap: 20px;
+
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .features-information-section {
+        width: 100%;
+    }
+
+    .features-title {
+        border-left: 5px solid #FF900E;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .features-title-style {
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+    img.feature-banner-image {
+        right: 20px;
+        width: 80%;
+        height: 400px;
+    }
+
+    .feature-banner-sticker {
+        top: 340px;
+        background-color: #FF900E;
+        width: 150px;
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .feature-banner-sticker-title {
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    .feature-banner-sticker-experience {
+        font-weight: 150;
+        font-size: 18px;
+    }
+
+    /* --------------------------------
+  Responside for Some Facts Section
+-------------------------------- */
+
+    .facts-container {
+        margin-top: 400px;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .facts-information {
+        text-align: left;
+    }
+
+    .facts-title {
+        font-weight: 500;
+        font-size: 35px;
+        margin-bottom: 18px;
+    }
+
+    .facts-description {
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .facts-items {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    /* ---------------------------------------------
+   Responside for Location Information Section
+---------------------------------------------- */
+
+    .location-container {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .locations {
+        margin-bottom: 50px;
+    }
+
+    .location-title {
+        font-weight: 500;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .all-branches {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-left: 80px;
+    }
+
+    /* ------------------------------------
+   Responside for Our Sponsors Section
+------------------------------------- */
+    .sponsors-container {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+    }
+
+    .sponsors-title {
+        font-weight: 500px;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .sponsors-description {
+        font-weight: 300;
+    }
+
+    .logo-image {
+        margin-top: 40px;
+        padding-left: 50px;
+    }
+
+    .sponsors-company-information {
+        flex-direction: column;
+    }
+
+    /* --------------------------------
+   Responside for Our Sponsors Section 
+------------------------------ */
+
+    .footer-section {
+        margin-left: 50px;
+        margin-right: 30px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        height: 80px;
+        padding-top: 30px;
+    }
+
 }
