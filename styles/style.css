@@ -37,6 +37,9 @@ body {
 .menu-items {
     display: flex;
     gap: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
 }
 
 /* -------------------
@@ -54,8 +57,6 @@ body {
     padding-right: 480px;
     padding-bottom: 33px;
     text-align: center;
-
-
 }
 
 .top-body-headline {
@@ -70,11 +71,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-
 }
 
 .button-style {
-
     background-color: #FF900E;
     Width: 180px;
     Height: 64px;
@@ -93,67 +92,154 @@ body {
 ---------------------- */
 
 .top-body-banner {
-
     padding-top: 50px;
-
     text-align: center;
-
 }
 
-img,
-.image-banner {
+
+img.image-banner {
     height: 700px;
     width: 75%;
     padding-bottom: 32px;
-
 }
 
 /* -------------------
-   Features Section
+   Quick Features Section
 ---------------------- */
 
 .features-container {
     padding-top: 98px;
+    padding-bottom:130px;
 }
-.features-items{
-    
-    display:flex;
-    gap:73px;
+
+.features-items {
+    display: flex;
+    gap: 73px;
 }
-.features-images{
-    
-    display:grid;
+
+.features-images {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
-    row-gap: 30px;
-    margin-left: 50px;
+    row-gap: 5px;
+    margin-left: 300px;
 }
-img,
-.imaage-features {
-    width: 342px;
-    height: 342px;
+
+
+img.imaage-features {
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
 
 }
-.features-content{
-    justify-content: center;
-    align-items: center;
+
+.features-content {
+    padding-top: 230px;
+    padding-bottom: 200px;
+    padding-right:301px;
 }
 
-.features-content-title{
+.features-content-title {
     font-weight: 500;
-font-size: 45px;
+    font-size: 45px;
 }
-.quick-list{
+
+.quick-list {
     color: #727272;
 }
-.features{
+
+.features {
     color: #FF900E;
 }
-.features-description{
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+/* -------------------
+   Features details Section
+---------------------- */
+.features-details-container{
+    display:flex;
+    gap:30px;
+    margin-left:240px;
+    margin-right: 240px;
+    margin-bottom:50px;
+}
+
+.features-information-section{
+    
+}
+
+.features-information-section{
+width:50%;
+}
+
+.features-title{
+    border-left: 5px solid #FF900E;
+    padding-left:20px;
+    margin-bottom:24px;
+
+}
+
+.features-title-style{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.features-description-style{
     font-weight: 400;
 font-size: 16px;
 color: #727272;
-margin-top:24px;
-margin-bottom:32px;
+}
+
+.feature-item-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom:10px;
+
+}
+.feature-item-1{
+    padding:30px;
+    box-shadow: 1px 0px grey, -.25em 0 .2em darkgrey;
+    margin-bottom:30px;
+
+}
+
+img.feature-banner-image{
+    position:absolute;
+    width: 708px;
+height: 982px;
+right:30px;
+
+}
+
+.feature-banner-sticker{
+    position:relative;
+    top:782px;
+    background-color: #FF900E;
+    width: 342px;
+height: 200px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px; 
+    padding-top:55px;
+    padding-bottom:5opx;
+
+   
+}
+.feature-banner-sticker-title{
+    font-weight: 700;
+font-size: 65px;
+
+}
+.feature-banner-sticker-experience{
+    font-weight: 500;
+font-size: 25px;
 }
